@@ -1151,7 +1151,7 @@
                 <div class="address"> </div>
                             <div class="cafe-subtitle"></div>
                            <div class="cafe-subtitle"></div>
-                <div class="mobile-numbers"><br> Mo no.+91 9226962132 </div>
+                <div class="mobile-numbers"><br> Mo no.+91 7755096666 </div>
             </div>
             <div class="veg-nonveg">
                 <div class="veg">
@@ -1800,7 +1800,7 @@
             const totalAmount = cart.reduce((sum, item) => sum + (getNumericPrice(item.price) * item.quantity), 0);
             message += `\n**Total Amount:** ₹${totalAmount}\n\nThank you!`;
             const encodedMessage = encodeURIComponent(message);
-            const whatsappURL = `https://wa.me/917755096666?text=${encodedMessage}`;
+            const whatsappURL = `https://wa.me/917755096666text=${encodedMessage}`;
             window.open(whatsappURL, '_blank');
             setTimeout(() => { cartModal.classList.remove('open'); }, 1000);
         });
