@@ -1619,14 +1619,14 @@
         ];
         
         // Extending data to match all items (keeping original length)
-        for(let i=11; i<=260; i++) {
-            if(!data.find(d=>d.id===i)) data.push({id:i, cat:"RICE", name:"Item "+i, price:"Rs. 199", desc:"Delicious item", tags:["Veg"], img:"img/placeholder.jpg"});
-        }
+        // for(let i=11; i<=260; i++) {
+        //     if(!data.find(d=>d.id===i)) data.push({id:i, cat:"RICE", name:"Item "+i, price:"Rs. 199", desc:"Delicious item", tags:["Veg"], img:"img/placeholder.jpg"});
+        // }
         // Patch price parsing helper
-        function getNumericPrice(priceStr) {
-            let match = priceStr.match(/\d+/);
-            return match ? parseInt(match[0], 10) : 0;
-        }
+        // function getNumericPrice(priceStr) {
+        //     let match = priceStr.match(/\d+/);
+        //     return match ? parseInt(match[0], 10) : 0;
+        // }
         
         let cart = [];
         let deliveryType = 'restaurant';
